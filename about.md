@@ -1,18 +1,15 @@
 ---
-title: Colophon
+title: About this blog
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Unlocking the wisdom of Mises' Human Action - one chapter at a time. We use AI to make complex economic ideas clear and concise.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+# Exploring the Thought of Ludwig von Mises
 
-If you have a question about him or else, just send a letter to him.
+Ludwig von Mises' *Human Action* is a masterpiece of economic thought, but it can be challenging. This blog is here to help. We're working through each chapter, using AI to simplify Mises' ideas and make them easier to understand.  We'll cover everything from the basics of human action to complex market processes.  Our goal is to make Mises' insights relevant to current events and debates. This blog is a great way to supplement your reading of *Human Action* and deepen your understanding of Austrian economics.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+## Contribute
 
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+If you find any broken links or have suggestions for improvement, please don't hesitate to [report an issue](https://github.com/emanamini/HumanAction/issues/new).
