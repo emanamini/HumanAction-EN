@@ -4,11 +4,11 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
-#     bundle exec jekyll serve
+#     bundle exec jekyll serve
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.3"  # Or a later 4.x version if you prefer
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
@@ -18,10 +18,10 @@ gem "jekyll", "~> 4.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.13'
-  gem 'jekyll-sitemap', '~> 1.4'
-  gem 'jekyll-compose', '~> 0.12.0'
-  gem 'jekyll-postfiles', '~> 3.1'
+gem 'jekyll-feed', '~> 0.13'
+gem 'jekyll-sitemap', '~> 1.4'
+gem 'jekyll-compose', '~> 0.12.0'
+gem 'jekyll-postfiles', '~> 3.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -31,3 +31,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "webrick", "~> 1.7"
+
+# Add these to address the Ruby 3.4 warnings, but upgrading Jekyll is still the best long-term solution.
+gem "logger"
+gem "csv"
