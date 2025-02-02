@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "00 - My Blog on Human Action"
+title:  "My Blog on Human Action"
 date:   2025-02-01 09:29:20 +0330
 categories: HumanAction, Mises, Book
 usemathjax: true
