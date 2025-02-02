@@ -136,6 +136,7 @@ figcaption {
 }
 
 // List
+/*
 ul {
   list-style: none;
   li {
@@ -192,6 +193,20 @@ li {
     margin-bottom: 2px;
     margin-top: 0;
   }
+}
+*/
+
+ul, ol {
+  padding-left: 30px; /* Adjust left padding as needed */
+  padding-top: 10px;   /* Adjust top padding as needed */
+  padding-bottom: 10px; /* Adjust bottom padding as needed */
+}
+li {
+  margin-bottom: 10px; /* Adjust the value (5px) to control the spacing */
+}
+ol li { /* Target ordered list items */
+  padding-left: 10px; /* Adjust this value to control the space */
+  position: relative; /* Important for positioning the counter */
 }
 
 // Headings

@@ -9,7 +9,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Ludwig von Mises # author name
+  name: Eman # author name
   bio: This blog is dedicated to summarizing and analyzing <b>Human Action</b> by Ludwig von Mises, a cornerstone of Austrian economics. We break down its key ideas and insights into easily digestible articles.
   username: Eman # general username
   github: EmanAmini # github username
