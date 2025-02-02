@@ -3,12 +3,37 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
-<article class="post-item">
-  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
-</article>
-{%- endfor -%}
+<h1 class="center-container">Welcome to Human Action Summaries</h1>
+<p> This blog is dedicated to summarizing and analyzing <b>Human Action</b> by Ludwig von Mises, a cornerstone of Austrian economics. We break down its key ideas and insights into easily digestible articles. </p>
+<p> Whether you're a student of economics or just curious about Mises' work, this blog will help you navigate the book’s complex yet profound ideas. </p>
+<div class="center-container">
+  <a href="/archive/" class="btn">Click Here To Read Summaries</a>
+</div>
+
+<style>
+.center-container {
+  text-align: center;
+  /* Centers the content within this div */
+}
+
+.btn {
+  display: inline-block;
+  /* Makes the <a> element behave like a block element but inline */
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+  border: 1px solid grey;
+  /* Black border */
+  text-decoration: none;
+  /* Remove underline from link */
+  border-radius: 0px;
+  /* optional, makes the corners square*/
+  font-family: sans-serif;
+  /*Optional, sets a default sans-serif font*/
+}
+
+.btn:hover {
+  background-color: #eee;
+  /* Light grey on hover */
+}
+</style>
+
