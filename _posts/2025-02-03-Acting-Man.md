@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "01 - Acting Man"
-date:   2025-02-02 09:29:20 +0330
+date:   2025-02-03 09:29:20 +0330
 description: Unraveling the philosophical essence of human motivation and choice
 categories: HumanAction, Mises, Book
 usemathjax: true
